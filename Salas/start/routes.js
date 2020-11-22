@@ -24,3 +24,5 @@ Route.get('/', () => {
 
 Route.get('/users', 'UserController.list');
 Route.post('/users/create', 'UserController.create');
+Route.get('/salas', 'SalaController.list');
+Route.post('/salas/create', 'SalaController.create');
