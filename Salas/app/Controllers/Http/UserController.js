@@ -13,6 +13,7 @@ class UserController {
             email: request.all().email,
             password: request.all().password
         });
+        
         return response.json({ "DATA": "usuário criado" });
     }
 
